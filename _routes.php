@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'index.php'         => 'homepage/index',
+    '/index.php'        => 'homepage/index',
     '/'                 => 'homepage/index',
 
     '/users'            => 'users/index',

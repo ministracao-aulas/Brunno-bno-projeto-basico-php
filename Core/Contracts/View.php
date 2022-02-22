@@ -16,9 +16,9 @@ class View
         return false;
     }
 
-    public static function page404()
+    protected static function page404()
     {
-        static::loadFile(static::$basePath."/views/errors/404")
+        static::loadView("/errors/404")
             or
             die('<h1>404</h1>');
     }
@@ -29,7 +29,7 @@ class View
 
         static::loadFile($fileToLoad)
             or
-            page404();
+        static::page404();
 
         die;
     }

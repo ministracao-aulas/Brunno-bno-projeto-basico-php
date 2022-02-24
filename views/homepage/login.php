@@ -11,6 +11,10 @@
         background-size: cover;
     }
 
+    .link-senha {
+        text-decoration: none;
+    }
+
 </style>
 
 <div class="container-fluid">
@@ -24,7 +28,7 @@
                     <div class="row justify-content-center d-flex align-items-center">
                         <div class="col-12 col-md-8">      
                             <h3 class="mt-5 text-secondary fw-bold">Plataforma EAD</h3> 
-                            <p class="text-muted lead">Entre com seu login e senha para acessar seu curso.</p>
+                            <p class="text-muted lead">Entre com login e senha para acessar seu curso.</p>
                             <form>
                                 <div class="form-group mt-5">
                                     <label for="email">Login:</label>
@@ -33,9 +37,18 @@
                                 <div class="form-group mt-1">
                                     <label for="senha">Senha:</label>
                                     <input type="password" class="form-control bg-light" id="senha" placeholder="******">
-                                </div>                                
-                                <button type="submit" class="btn btn-primary mt-3">Entrar</button>
+                                </div>   
+                                <div class="row mt-3">
+                                    <div class="col-4 col-md-4">
+                                        <button type="submit" class="btn btn-primary">Entrar</button>
+                                    </div>
+                                    <div class="col-8 col-md-8 mt-3 d-flex justify-content-end">
+                                        <p class="text-muted">Esqueceu a senha?<a class="justify-content-end link-dark link-senha" href="#"> Clique aqui</a></p>
+                                    </div>
+                                </div>                             
+                                
                             </form>
+                            
                         </div>
                     </div>            
                 </div>

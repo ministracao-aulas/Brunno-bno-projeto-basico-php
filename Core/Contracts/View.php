@@ -4,7 +4,7 @@ namespace Core\Contracts;
 
 class View
 {
-    protected static $basePath = BASE_PATH;
+    protected static $basePath = BASE_DIR;
 
     protected static function loadFile(string $fileToLoad)
     {

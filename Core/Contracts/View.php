@@ -20,7 +20,7 @@ class View
     {
         static::loadView("/errors/404")
             or
-            die('<h1>404</h1>');
+        die('<h1>404</h1>');
     }
 
     public static function loadView(string $view)

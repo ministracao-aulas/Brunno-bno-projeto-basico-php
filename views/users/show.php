@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table {
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <?php require_once BASE_PATH . "/views/_includes/menu.php"; ?>
-    <h1>User XYZ</h1>
+<?php 
 
-    <ul>
-        <li>ID: 123</li>
-        <li>Name:  sdkjskd  sjdsd</li>
-        <li>Email: asas@sdsd.com</li>
-    </ul>
-</body>
-</html>
+require_once BASE_PATH . "/views/_includes/header.php"; 
+
+?>
+
+<div class="container-fluid">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-10 mt-5">
+            <h3>Detalhes do Usuário</h3>           
+        </div>
+        <div class="col-12 col-md-10">
+              <ul>
+                <li>ID: 123</li>
+                <li>Name:  sdkjskd  sjdsd</li>
+                <li>Email: asas@sdsd.com</li>
+            </ul>
+        </div> 
+    </div>
+</div>

@@ -6,4 +6,11 @@ return [
 
     '/users'            => 'users/index',
     '/users/show'       => 'users/show',
+
+    '/courses/create'   => 'courses/courses-form',
+    '/courses/'         => 'courses/index',
+
+    '/group/'           => 'group/group',
+
+    '/login'            => 'homepage/login',
 ];

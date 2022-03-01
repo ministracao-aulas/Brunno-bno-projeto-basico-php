@@ -1,7 +1,7 @@
 <?php
 //custom autoload without composer
 $namespaces = [
-    'App\\'  =>  'src/',
+    'App\\'  =>  'App/',
     'Core\\' =>  'Core/',
 ];
 

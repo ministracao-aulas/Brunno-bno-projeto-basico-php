@@ -1,6 +1,6 @@
 <?php 
 
-require_once BASE_PATH . "/views/_includes/header.php"; 
+require_once BASE_DIR . "/views/_includes/header.php"; 
 
 ?>
 

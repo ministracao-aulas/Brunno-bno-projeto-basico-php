@@ -1,6 +1,6 @@
 <?php 
 
-require_once BASE_PATH . "/views/_includes/header.php"; 
+require_once BASE_DIR . "/views/_includes/header.php"; 
 
 ?>
 
@@ -32,7 +32,7 @@ require_once BASE_PATH . "/views/_includes/header.php";
             <tr>
                 <td>3</td>
                 <td>User 3</td>
-                <td><a href="/users/show">Show</a></td>
+                <td><a href="<?=assets('users/show?id=3') ?>">Show</a></td>
             </tr>
         </tbody>
     </table>

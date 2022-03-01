@@ -28,33 +28,41 @@
 <header class=" container-fluid fixed-top">
     <div class="row justify-content-center">
         <div class="col-12 col-md-12">
-            <div class="row justify-content-center bg-dark">
+            <div class="row justify-content-center bg-white shadow-sm">
                 <div class="col-12 col-md-10">
-                    <nav class="navbar navbar-expand-lg navbar-dark">
+                    <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="<?=assets('')?>">Plataforma EAD</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <div class="col-md-6">
+                            <div class="col-md-8">
                                 <ul class="navbar-nav">
                                     <li class="nav-item active">
                                         <a class="nav-link" href="<?=assets('')?>">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?=assets('courses') ?>">Cursos</a>
+                                        <a class="nav-link" href="<?=assets('courses/') ?>">Cursos</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?=assets('group') ?>">Turmas</a>
+                                        <a class="nav-link" href="<?=assets('group/') ?>">Turmas</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?=assets('users') ?>">Alunos</a>
+                                        <a class="nav-link" href="<?=assets('users/') ?>">Alunos</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="<?=assets('users/show') ?>">Meus dados</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?=assets('courses/create') ?>">Criar Curso</a>
+                                    </li>
                                 </ul>
                             </div>                           
+                        
+
+                            <div class="col-12 col-md-4 justify-content-end text-end">
+                                <span class="text-secondary">Brunno Hernandez <i class="fas fa-user-circle"></i> </a>
+                            </div>
                         </div>
                     </nav>
                 </div>

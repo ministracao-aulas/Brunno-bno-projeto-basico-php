@@ -1,4 +1,9 @@
 <?php
+declare(strict_types=1);
+
+if(!isset($_SESSION)) {
+    session_start();
+}
 
 use App\Helpers\URL;
 use Core\Contracts\RouteManager;

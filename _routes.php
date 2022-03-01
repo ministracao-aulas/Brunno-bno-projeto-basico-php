@@ -1,16 +1,28 @@
 <?php
 
+use App\Controllers\HomepageController;
+use App\Controllers\UserController;
+use App\Controllers\CourseController;
+use App\Controllers\GroupController;
+
+
+/*
+M =
+V = Ok
+C = Ok
+*/
+
 return [
-    '/index.php'        => 'homepage/index',
-    '/'                 => 'homepage/index',
+    '/index.php'        => [HomepageController::class, 'index'],
+    '/'                 => [HomepageController::class, 'index'],
 
-    '/users'            => 'users/index',
-    '/users/show'       => 'users/show',
+    '/users/'           => [UserController::class, 'index'],
+    '/users/show'       => [UserController::class, 'show'],
 
-    '/courses/create'   => 'courses/courses-form',
-    '/courses/'         => 'courses/index',
+    '/courses/'         => [CourseController::class, 'index'],
+    '/courses/create'   => [CourseController::class, 'form'],
 
-    '/group/'           => 'group/group',
+    '/group/'           => [GroupController::class, 'index'],
 
-    '/login'            => 'homepage/login',
+    '/login'            => [HomepageController::class, 'login'],
 ];

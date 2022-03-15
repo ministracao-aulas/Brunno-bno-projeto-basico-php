@@ -16,10 +16,13 @@ return [
     '/index.php'        => [HomepageController::class, 'index'],
     '/'                 => [HomepageController::class, 'index'],
 
-    '/users/'           => [UserController::class, 'index'],
+    '/users'            => [UserController::class, 'index'],
     '/users/show'       => [UserController::class, 'show'],
+    '/users/create'     => [UserController::class, 'create'],
+    '/users/store'      => [UserController::class, 'store'],
+    // '/users/fake'       => [UserController::class, 'fakeList'],
 
-    '/courses/'         => [CourseController::class, 'index'],
+    'courses/'          => [CourseController::class, 'index'],
     '/courses/create'   => [CourseController::class, 'form'],
 
     '/group/'           => [GroupController::class, 'index'],

@@ -9,7 +9,7 @@
     <meta name="keywords" content="Plataforma Ead" />
     <meta name="robots" content="index,follow" />
 
-    <title>Plataforma Ead de Inglês</title>
+    <title><?= env('APP_NAME')?></title>
 
     <link rel="icon" href="/views/images/favicon.svg" />
 
@@ -57,8 +57,8 @@
                                         <a class="nav-link" href="<?=assets('courses/create') ?>">Criar Curso</a>
                                     </li>
                                 </ul>
-                            </div>                           
-                        
+                            </div>
+
 
                             <div class="col-12 col-md-4 justify-content-end text-end">
                                 <span class="text-secondary">Brunno Hernandez <i class="fas fa-user-circle"></i> </a>
@@ -70,4 +70,3 @@
         </div>
     </div>
 </header>
-

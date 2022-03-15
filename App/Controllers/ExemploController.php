@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use Core\Contracts\Controller;
 use Core\Contracts\View;
-use PDO;
 
 class UserController extends Controller
 {
@@ -47,10 +46,5 @@ class UserController extends Controller
             'password',
             'name'
         );
-
-        dd([
-            $data,
-            __FILE__ . ':' . __LINE__
-        ]);
     }
 }

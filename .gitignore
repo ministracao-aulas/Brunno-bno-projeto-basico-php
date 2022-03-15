@@ -1,3 +1,7 @@
 /vendor
 php_error
 /.log
+/_dev_dir
+/_env.php*
+/_env.bkp*
+/database.sqlite

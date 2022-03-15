@@ -48,6 +48,7 @@ class RouteManager
     public static function bootRoute(string $uri)
     {
         $routes = require BASE_DIR."/_routes.php";
+        $routes = addSlashForAll($routes, true, true);
 
         if (
             $uri &&
